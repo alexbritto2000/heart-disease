@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Heart</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="static/styles/bootstrap4/bootstrap.min.css">
+<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="static/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="static/styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			
+			<ul>
+			<li class="menu_item"><a href="loginpage.html">Logout</a></li>
+				<li class="menu_item"><a href="/">About us</a></li>
+				
+				<li class="menu_item"><a href="Diabetes.html">Diabetes</a></li>
+				<li class="menu_item"><a href="Heart.html">Heart</a></li>
+				<li class="menu_item"><a href="Doctors.html">Doctors</a></li>	
+			</ul>
+		</div>
+	</div>
+	
+
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(static/images/index_hero.jpg)"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="#">Heart Disease</a>	
+									</div>
+									 
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+													<li><a href="/">About Us</a></li>
+												 
+													
+													<li><a href="Diabetes.html">Diabetes</a></li>
+													
+													<li><a href="Doctors.html">Doctors</a></li>
+													<li><a href="login.html">Logout</a></li>
+												</ul>
+											</nav>
+											 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title"> HEART DISEASE PREDICTION</div>
+							<div class="home_text">May God give you the strength and courage to continue your valiant fight until you are well again.</div>
+							<!--<div class="button home_button"><a href="index.html"><span> </span><span> </span></a></div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Info Boxes -->
+ <center>
+  <form action='/heartresult' method="post">
+	<div class="form-group">
+		<div class="rows">
+			<div class="col-md-4">
+				<br/>
+			<input type="text"  id="11" name="11" class="form-control"   placeholder="sex" required>
+				<br/>
+			<input type="text"  id="21" name="21" class="form-control"   placeholder="Age" required>
+			<br/>
+			<input type="text"  id="31" name="31" class="form-control"   placeholder="Are You Current Smoker?" required>
+				<br/>
+			<input type="text"  id="41" name="41" class="form-control"   placeholder="Cigarette Per Day" required>
+			<br/>
+			
+			<input type="text"  id="61" name="61" class="form-control"   placeholder=" Are You Prevalent Stroke?" required>
+			<br/>
+			<input type="text"  id="71" name="71" class="form-control"   placeholder=" Prevalent HYP" required>
+				<br/>	
+			<input type="text"  id="81" name="81" class="form-control"   placeholder="Do You have Diabetes? " required>
+			<br/>
+			<input type="text"  id="91" name="91" class="form-control"   placeholder=" Total Chol" required>
+				<br/>		
+			<input type="text"  id="10" name="10" class="form-control"   placeholder="Dia BP" required>
+			<br/>
+			<input type="text"  id="011" name="011" class="form-control"   placeholder=" Sys Bp" required>
+				<br/>		
+			<input type="text"  id="12" name="12" class="form-control"   placeholder="Heart Rate" required> 
+			<br/>
+			<input type="text"  id="13" name="13" class="form-control"   placeholder="Glucose" required>
+			<br/>
+			 						
+				<input type="submit" name="predict" value="Result" class="btn btn-info"> 
+				</div>
+			</div>
+		</div>
+    </form>
+</center>
+	 
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="static/images/footer.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					 
+								
+					<!-- Footer Hours -->
+					 
+				</div>
+			</div>
+		</div>
+		 
+	</footer>
+</div>
+
+<script src="static/js/jquery-3.3.1.min.js"></script>
+<script src="static/styles/bootstrap4/popper.js"></script>
+<script src="static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="static/plugins/easing/easing.js"></script>
+<script src="static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="static/js/custom.js"></script>
+</body>
+</html>
